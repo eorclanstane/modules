@@ -143,7 +143,7 @@ async def download_video(v_url):
         await v_url.delete()
     elif video:
         u = rip_data['uploader'] if 'uploader' in rip_data else 'Northing'
-        await v_url.edit(f"`Загружаю видосик:`\
+        await v_url.edit(f"`Загружаю видео:`\
         \n**{rip_data['title']}**\
         \nby *{u}*")
         await v_url.client.send_file(
