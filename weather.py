@@ -7,7 +7,7 @@ def register(cb):
     
 class WeatherMod(loader.Module):
     """Погода с сайта wttr.in"""
-    strings = {'name': 'Weather'}
+    strings = {'name': 'Погода'}
     
     async def pwcmd(self, message):
         """"Кидает погоду картинкой.\nИспользование: .pw <город>; ничего."""
