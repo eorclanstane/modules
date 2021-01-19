@@ -14,7 +14,7 @@ def register(cb):
 @loader.tds
 class GitaddMod(loader.Module):
     """Загружает файлы на репозиторий GitHub"""
-    strings = {"name": "GitUploader",
+    strings = {"name": "Загрузка модулей на GitHub",
                "reply_to_file": "<b>Ответьте на файл</b>",
                "error_file": "Формат не поддерживается",
                "connection_error": "<i>Ошибка соединения</i>",
